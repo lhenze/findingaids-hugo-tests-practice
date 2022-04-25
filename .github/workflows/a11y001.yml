@@ -1,7 +1,7 @@
 name: ally check
 on: [push]
 jobs:
-  check-bats-version:
+  check-a11y:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
